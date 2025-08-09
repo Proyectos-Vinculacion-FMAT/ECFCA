@@ -1,0 +1,29 @@
+@startuml Acceso y Perfiles
+
+!include Actores.puml
+
+package "Acceso y Perfiles"{
+    usecase CU_PG_001 as "
+    CU_PG_001
+    ---
+    Iniciar Sesión
+    "
+    usecase CU_PG_002 as "
+    CU_PG_002
+    ---
+    Crear Cuenta
+    "
+    usecase CU_PG_003 as "
+    CU_PG_003
+    ---
+    Gestionar Datos Personales
+    "
+
+    Usuario --> CU_PG_001
+    Usuario --> CU_PG_003
+    Interesado --> CU_PG_002
+
+}
+
+
+@enduml

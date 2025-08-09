@@ -1,0 +1,45 @@
+@startuml Público General
+
+!include Actores.puml
+
+package "Público General" {
+    usecase CU_PG_004 as "
+    CU_PG_004
+    ---
+    Solicitar Inscripción a Evento
+    "
+    usecase CU_PG_005 as "
+    CU_PG_005
+    ---
+    Realizar Pago de Solicitud Aprobada
+    "
+    usecase CU_PG_006 as "
+    CU_PG_006
+    ---
+    Cargar Documentos (por el usuario)
+    "
+    usecase CU_PG_007 as "
+    CU_PG_007
+    ---
+    Consultar Estado de mis Solicitudes-Inscripciones
+    "
+    usecase CU_PG_008 as "
+    CU_PG_008
+    ---
+    Volver a Enviar Solicitud
+    "
+    usecase CU_PG_009 as "
+    CU_PG_009
+    ---
+    Consultar Mis Eventos
+    "
+}
+
+Participante --> CU_PG_009
+Interesado --> CU_PG_004
+Interesado --> CU_PG_005
+Interesado --> CU_PG_006
+Interesado --> CU_PG_007
+Interesado --> CU_PG_008
+
+@enduml

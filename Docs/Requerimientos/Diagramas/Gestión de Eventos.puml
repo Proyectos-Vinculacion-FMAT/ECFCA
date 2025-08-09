@@ -1,0 +1,82 @@
+@startuml Gestión de Eventos
+
+!include Actores.puml
+
+package "Gestión de Eventos" {
+
+    usecase CU_GE_001 as "
+    CU_GE_001
+    ---
+    Crear Evento
+    "
+    usecase CU_GE_002 as "
+    CU_GE_002
+    ---
+    Consultar Eventos
+    "
+    usecase CU_GE_003 as "
+    CU_GE_003
+    ---
+    Modificar Evento
+    "
+    usecase CU_GE_004 as "
+    CU_GE_004
+    ---
+    Eliminar Evento
+    "
+    usecase CU_GE_005 as "
+    CU_GE_005
+    ---
+    Generar Constancias
+    "
+    usecase CU_GE_006 as "
+    CU_GE_006
+    ---
+    Generar Reportes de Eventos
+    "
+    usecase CU_GE_007 as "
+    CU_GE_007
+    ---
+    Aprobar-Gestionar Solicitudes de Inscripción
+    "
+    usecase CU_GE_008 as "
+    CU_GE_008
+    ---
+    Validar Pagos Manuales
+    "
+    usecase CU_GE_009 as "
+    CU_GE_009
+    ---
+    Crear Categoría de Evento-Capacitación
+    "
+    usecase CU_GE_010 as "
+    CU_GE_010
+    ---
+    Consultar Categorías de Evento-Capacitación
+    "
+    usecase CU_GE_011 as "
+    CU_GE_011
+    ---
+    Modificar Categoría de Evento-Capacitación
+    "
+    usecase CU_GE_012 as "
+    CU_GE_012
+    ---
+    Eliminar Categoría de Evento-Capacitación
+    "
+}
+
+coordinadora_ec --> CU_GE_001
+Coordinacion --> CU_GE_002
+coordinadora_ec --> CU_GE_003
+coordinadora_ec --> CU_GE_004
+coordinadora_ec --> CU_GE_005
+Coordinacion --> CU_GE_006
+Coordinacion --> CU_GE_007
+Coordinacion --> CU_GE_008
+coordinadora_ec --> CU_GE_009
+Coordinacion --> CU_GE_010
+coordinadora_ec --> CU_GE_011
+coordinadora_ec --> CU_GE_012
+
+@enduml

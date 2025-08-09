@@ -1,0 +1,15 @@
+@startuml Use Case System
+
+title Diagrama de casos de uso del sistema
+
+!include Actores.puml
+!include Acceso y Perfiles.puml
+!include Gestión de Eventos.puml
+!include Gestión de Leads.puml
+!include Gestión de Oportunidades.puml
+!include Módulo de Usuarios.puml
+!include Público General.puml
+!include Sistema Completo.puml
+
+
+@enduml

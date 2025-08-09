@@ -1,0 +1,53 @@
+@startuml Gestión de Oportunidades
+
+!include Actores.puml
+
+package "Gestión de Oportunidades" {
+    usecase CU_VE_006 as "
+    CU_VE_006
+    ---
+    Registrar Interacción con Oportunidad"
+    usecase CU_VE_007 as "
+    CU_VE_007
+    ---
+    Agendar Tarea de Seguimiento"
+    usecase CU_VE_008 as "
+    CU_VE_008
+    ---
+    Cerrar Oportunidad Ganada-Perdida"
+    usecase CU_VE_011 as "
+    CU_VE_011
+    ---
+    Cargar Documentación en Nombre del Cliente"
+    usecase CU_VE_012 as "
+    CU_VE_012
+    ---
+    Consultar estado del pago"
+
+    usecase CU_VE_009 as "
+    CU_VE_009
+    ---
+    Consultar recordatorios"
+    usecase CU_VE_010 as "
+    CU_VE_010
+    ---
+    Gestionar Notificación de Recordatorio"
+}
+
+
+
+promotor_ventas --> CU_VE_006
+
+
+promotor_ventas --> CU_VE_011
+promotor_ventas --> CU_VE_012
+Coordinacion --> CU_VE_012
+promotor_ventas --> CU_VE_009
+CU_VE_010 <-- "Gestión de Oportunidades" 
+promotor_ventas --> CU_VE_010
+
+CU_VE_007 .> CU_VE_006 : extiende
+CU_VE_008 .> CU_VE_006 : extiende
+
+
+@enduml
