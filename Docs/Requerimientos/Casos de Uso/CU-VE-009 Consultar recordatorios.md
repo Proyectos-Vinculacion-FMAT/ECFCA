@@ -2,7 +2,7 @@
 
 **ID:** CU-VE-009
 
-**Actor(es):** promotor de ventas
+**Actor(es):** Promotor de Ventas
 
 **Descripción:** El usuario accede a una vista centralizada para revisar sus tareas de seguimiento (recordatorios), tanto las que han sido agendadas manualmente como las que el sistema ha generado automáticamente. Esto le permite planificar su trabajo y asegurarse de no omitir ninguna actividad importante.
 

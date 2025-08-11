@@ -2,9 +2,9 @@
 
 **ID:** CU-PG-006
 
-**Actor(es):** Público General
+**Actor(es):** Interesado
 
-**Descripción:** El usuario de Público General sube documentos requeridos por el sistema como parte de una solicitud de inscripción a un evento, o en respuesta a una solicitud de información adicional por parte del administrativo.
+**Descripción:** El interesado sube documentos requeridos por el sistema como parte de una solicitud de inscripción a un evento, o en respuesta a una solicitud de información adicional por parte del administrativo.
 
 **Precondiciones:**
 

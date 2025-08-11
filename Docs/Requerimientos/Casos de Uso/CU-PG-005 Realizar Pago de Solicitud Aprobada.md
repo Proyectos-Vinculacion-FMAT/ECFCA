@@ -2,9 +2,9 @@
 
 **ID:** CU-PG-005
 
-**Actor(es):** Público General
+**Actor(es):** Interesado
 
-**Descripción:** El usuario de Público General completa el proceso de pago para confirmar su participación en un evento, después de que su solicitud de inscripción ha sido aprobada por un administrativo.
+**Descripción:** El interesado completa el proceso de pago para confirmar su participación en un evento, después de que su solicitud de inscripción ha sido aprobada por un administrativo.
 
 **Precondiciones:**
 

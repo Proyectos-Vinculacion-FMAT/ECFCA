@@ -2,7 +2,7 @@
 
 **ID:** CU-VE-012
 
-**Actor(es):** promotor de ventas
+**Actor(es):** Promotor de Ventas
 
 **Descripción:** El Agente o Staff consultan el estado actual de una solicitud de pago para dar el seguimiento adecuado a la oportunidad. El estado es informativo y es modificado por procesos externos (Contabilidad) o automáticos (Sistema).
 

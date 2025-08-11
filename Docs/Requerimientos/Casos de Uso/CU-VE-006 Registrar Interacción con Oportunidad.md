@@ -2,7 +2,7 @@
 
 **ID:** CU-VE-006
 
-**Actor(es):** promotor de ventas
+**Actor(es):** Promotor de Ventas
 
 **Descripción:** El Agente de Ventas registra en una bitácora cada contacto, evento o "momento" relevante que ocurre con una oportunidad. Estas interacciones se registran como “estados” que forman un historial cronológico, permitiendo un seguimiento claro y eficiente sin seguir una secuencia rígida.
 

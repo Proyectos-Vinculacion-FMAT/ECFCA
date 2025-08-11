@@ -2,7 +2,7 @@
 
 **ID:** CU-VE-005
 
-**Actor(es):** promotor de ventas
+**Actor(es):** Promotor de Ventas
 
 **Descripción:** Cuando un Agente de Ventas determina que un lead está calificado (muestra interés genuino y potencial de inscripción), lo convierte en una oportunidad. Esta acción formaliza el inicio del proceso de venta activa y mueve al contacto al siguiente nivel en el embudo.
 

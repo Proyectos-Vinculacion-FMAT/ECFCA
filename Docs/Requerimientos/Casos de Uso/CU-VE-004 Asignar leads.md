@@ -2,7 +2,7 @@
 
 **ID:** CU-VE-004
 
-**Actor(es):** responsable de Ventas
+**Actor(es):** Responsable de Ventas
 
 **Descripción:** El jefe de área distribuye los leads entrantes entre los Agentes de Ventas (Promotores) para que realicen el seguimiento. Esta acción puede realizarse de forma individual o masiva para optimizar el flujo de trabajo.
 

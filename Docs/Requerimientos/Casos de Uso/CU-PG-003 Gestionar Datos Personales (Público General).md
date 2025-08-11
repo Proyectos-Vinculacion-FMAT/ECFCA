@@ -2,7 +2,7 @@
 
 **ID:** CU-PG-003
 
-**Actor(es):** Público General
+**Actor(es):** Usuario
 
 **Descripción:** Un usuario de Público General visualiza y/o actualiza su información personal registrada en el sistema para mantener sus datos al día.
 

@@ -2,7 +2,7 @@
 
 **ID:** CU-VE-007
 
-**Actor(es):** promotor de ventas
+**Actor(es):** Promotor de Ventas
 
 **Descripción:** El Agente de Ventas registra una actividad futura y programada para una oportunidad específica, como una llamada o un envío de correo, para garantizar que el seguimiento se realice en el momento acordado con el cliente.
 

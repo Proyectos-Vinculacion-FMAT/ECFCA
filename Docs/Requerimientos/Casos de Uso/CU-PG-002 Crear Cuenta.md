@@ -1,7 +1,7 @@
 ## CU-PG-002 Crear Cuenta (con Verificación por Código Temporal)
 
 **ID:** CU-PG-002  
-**Actor(es):** Público General  
+**Actor(es):** Interesado  
 
 ### Descripción
 Un nuevo usuario se registra en el sistema para obtener acceso a las funcionalidades ofrecidas, como la consulta de eventos y la inscripción.

@@ -2,7 +2,7 @@
 
 **ID:** CU-VE-010
 
-**Actor(es):** promotor de ventas, Sistema
+**Actor(es):** Promotor de Ventas, Sistema
 
 **Descripción:** El Sistema notifica proactivamente al Agente de Ventas sobre una tarea de seguimiento que requiere su atención. Esto ocurre cuando llega la fecha/hora de una tarea programada o cuando se cumple una regla de inactividad (ej. 3 días sin registrar interacciones en una oportunidad). El Agente debe procesar esta notificación para mantener el flujo de ventas activo.
 

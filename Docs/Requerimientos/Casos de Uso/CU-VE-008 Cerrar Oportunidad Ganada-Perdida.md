@@ -2,7 +2,7 @@
 
 **ID:** CU-VE-008
 
-**Actor(es):** promotor de ventas
+**Actor(es):** Promotor de Ventas
 
 **Descripción:** El Agente de Ventas finaliza el ciclo de vida de una oportunidad marcándola como "Ganada" (si se logró la inscripción) o "Perdida" (si el cliente no continuó el proceso). Esta acción es definitiva y mueve la oportunidad fuera del pipeline activo para fines de reporte y análisis
 

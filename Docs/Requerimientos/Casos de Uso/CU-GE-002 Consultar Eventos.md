@@ -2,26 +2,26 @@
 
 **ID:** CU-GE-002
 
-**Actor(es):** Administrativo
+**Actor(es):** Coordinación
 
-**Descripción:** El administrativo visualiza una lista de todos los eventos registrados en el sistema, pudiendo aplicar filtros o buscar eventos específicos.
+**Descripción:** La coordinación visualiza una lista de todos los eventos registrados en el sistema, pudiendo aplicar filtros o buscar eventos específicos.
 
 **Precondiciones:**
 
-* El Administrativo ha iniciado sesión en el sistema.
+* La Coordinación ha iniciado sesión en el sistema.
 
 **Flujo Básico (Camino Feliz):**
 
-1. El Administrativo selecciona la opción "Consultar eventos" o "Ver eventos" dentro de la "Gestión de Eventos".
+1. La Coordinación selecciona la opción "Consultar eventos" o "Ver eventos" dentro de la "Gestión de Eventos".
 2. El sistema muestra una lista paginada de todos los eventos registrados, incluyendo información clave como nombre, fechas y estado.
-3. Opcionalmente, el Administrativo utiliza las opciones de filtro (por ejemplo, por fecha, por modalidad) o la barra de búsqueda para refinar la lista.
+3. Opcionalmente, la Coordinación utiliza las opciones de filtro (por ejemplo, por fecha, por modalidad) o la barra de búsqueda para refinar la lista.
 4. El sistema actualiza la lista de eventos según los criterios de búsqueda/filtros aplicados.
 
 **Flujos Alternativos y Excepciones:**
 
 * **Alternativa A:** No hay eventos registrados en el sistema. El sistema muestra un mensaje indicando que no hay eventos.
-* **Alternativa B:** El Administrativo no encuentra el evento deseado. El sistema indica que no se encontraron resultados para la búsqueda/filtro.
+* **Alternativa B:** La Coordinación no encuentra el evento deseado. El sistema indica que no se encontraron resultados para la búsqueda/filtro.
 
 **Post-condiciones:**
 
-* El Administrativo ha visualizado la información de los eventos.
+* La Coordinación ha visualizado la información de los eventos.

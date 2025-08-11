@@ -2,9 +2,9 @@
 
 **ID:** CU-PG-004
 
-**Actor(es):** Público General
+**Actor(es):** Interesado
 
-**Descripción:** El usuario expresa su interés en un evento disponible y envía una solicitud formal de inscripción, que requiere la revisión y posible aprobación por parte de un administrativo antes de confirmar su participación.
+**Descripción:** El interesado expresa su interés en un evento disponible y envía una solicitud formal de inscripción, que requiere la revisión y posible aprobación por parte de un administrativo antes de confirmar su participación.
 
 **Precondiciones:**
 
@@ -13,14 +13,14 @@
 
 **Flujo Básico (Camino Feliz):**
 
-1. El **usuario** navega por la sección de "Eventos Disponibles" o "Catálogo de Eventos".
+1. El **interesado** navega por la sección de "Eventos Disponibles" o "Catálogo de Eventos".
 2. El **sistema** muestra una lista de eventos con información clave (nombre, fechas, breve descripción, precio, estado de solicitud, etc.).
-3. El **usuario** selecciona un evento de interés haciendo clic en "Ver Detalles" o "Solicitar Inscripción".
+3. El **interesado** selecciona un evento de interés haciendo clic en "Ver Detalles" o "Solicitar Inscripción".
 4. El **sistema** muestra la página de detalles del evento, incluyendo información completa, temario, requisitos de inscripción (documentos, información adicional).
-5. El **usuario** hace clic en "Solicitar Inscripción".
+5. El **interesado** hace clic en "Solicitar Inscripción".
 6. El **sistema** puede mostrar un formulario pre-llenado con los datos del perfil del usuario (CU-PG-003b) y campos adicionales si el evento lo requiere.
-7. El **usuario** confirma o actualiza su información, y carga los documentos requeridos (relación con CU-PG-007) para la solicitud, si los hay.
-8. El **usuario** revisa los términos de la solicitud y hace clic en "Enviar Solicitud".
+7. El **interesado** confirma o actualiza su información, y carga los documentos requeridos (relación con CU-PG-007) para la solicitud, si los hay.
+8. El **interesado** revisa los términos de la solicitud y hace clic en "Enviar Solicitud".
 9. El **sistema** realiza validaciones de la solicitud (ej., campos completos, documentos adjuntos).
 10. Si la información es válida, el **sistema** registra la solicitud de inscripción, asociándola al usuario y al evento, y establece su estado inicial como "Pendiente de Revisión" o "Pendiente de Aprobación".
 11. El **sistema** muestra una confirmación al usuario de que su solicitud ha sido enviada y está en revisión.

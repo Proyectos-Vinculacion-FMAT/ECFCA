@@ -2,9 +2,9 @@
 
 **ID:** CU-PG-007
 
-**Actor(es):** Público General
+**Actor(es):** Interesado
 
-**Descripción:** El usuario visualiza el estado actual de todas sus solicitudes de inscripción a eventos y el estado de sus inscripciones confirmadas, incluyendo detalles sobre requisitos pendientes como el pago o documentos.
+**Descripción:** El interesado visualiza el estado actual de todas sus solicitudes de inscripción a eventos y el estado de sus inscripciones confirmadas, incluyendo detalles sobre requisitos pendientes como el pago o documentos.
 
 **Precondiciones:**
 

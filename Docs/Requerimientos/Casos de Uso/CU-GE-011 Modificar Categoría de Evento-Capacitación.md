@@ -2,28 +2,28 @@
 
 **ID:** CU-GE-011
 
-**Actor(es):** Administrativo
+**Actor(es):** Coordinadora de EC
 
-**Descripción:** El administrativo actualiza el nombre de una categoría de evento/capacitación existente.
+**Descripción:** La coordinadora de EC actualiza el nombre de una categoría de evento/capacitación existente.
 
 **Precondiciones:**
 
-* El Administrativo ha iniciado sesión en el sistema.
+* La Coordinadora de EC ha iniciado sesión en el sistema.
 * La categoría a modificar existe en el sistema.
 
 **Flujo Básico (Camino Feliz):**
 
-1. El Administrativo accede a la sección de "Gestión de Categorías".
-2. El Administrativo selecciona la categoría que desea modificar de la lista.
+1. La Coordinadora de EC accede a la sección de "Gestión de Categorías".
+2. La Coordinadora de EC selecciona la categoría que desea modificar de la lista.
 3. El sistema presenta un campo editable con el nombre actual de la categoría.
-4. El Administrativo edita el nombre de la categoría.
-5. El Administrativo guarda los cambios.
+4. La Coordinadora de EC edita el nombre de la categoría.
+5. La Coordinadora de EC guarda los cambios.
 6. El sistema confirma la modificación y actualiza la categoría en la lista.
 
 **Flujos Alternativos y Excepciones:**
 
-* **Alternativa A:** El Administrativo decide cancelar la modificación.
-* **Excepción B:** El nuevo nombre de la categoría ya existe. El sistema notifica al Administrativo sobre el nombre duplicado.
+* **Alternativa A:** La Coordinadora de EC decide cancelar la modificación.
+* **Excepción B:** El nuevo nombre de la categoría ya existe. El sistema notifica a la Coordinadora de EC sobre el nombre duplicado.
 * **Excepción C:** El nuevo nombre de la categoría está vacío o es inválido. El sistema solicita un nombre válido.
 
 **Post-condiciones:**

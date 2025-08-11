@@ -2,9 +2,9 @@
 
 **ID:** CU-PG-008
 
-**Actor(es):** Público General
+**Actor(es):** Interesado
 
-**Descripción:** El usuario modifica y reenvía una solicitud de inscripción que previamente fue rechazada por un administrativo o para la cual se solicitó información adicional, con el objetivo de que sea reconsiderada.
+**Descripción:** El interesado modifica y reenvía una solicitud de inscripción que previamente fue rechazada por un administrativo o para la cual se solicitó información adicional, con el objetivo de que sea reconsiderada.
 
 **Precondiciones:**
 

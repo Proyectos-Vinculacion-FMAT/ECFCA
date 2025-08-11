@@ -2,7 +2,7 @@
 
 **ID:** CU-VE-011
 
-**Actor(es):** promotor de ventas
+**Actor(es):** Promotor de Ventas
 
 **Descripción:** El personal de staff carga los documentos comprobatorios de una oportunidad en nombre del cliente. Esta acción se realiza para asistir a clientes que tienen dificultades para usar el portal de autoservicio, garantizando que su solicitud de descuento pueda ser procesada para la inscripción.
 

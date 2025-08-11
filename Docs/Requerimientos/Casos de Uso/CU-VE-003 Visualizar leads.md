@@ -2,7 +2,7 @@
 
 **ID:** CU-VE-003
 
-**Actor(es):** promotor de ventas, responsable de Ventas
+**Actor(es):** Promotor de Ventas, Responsable de Ventas
 
 **Descripción:** El usuario accede a la lista de leads registrados en el sistema. La vista y las acciones disponibles varían según el rol del usuario, permitiendo filtrar, agrupar y gestionar los leads de manera eficiente.
 

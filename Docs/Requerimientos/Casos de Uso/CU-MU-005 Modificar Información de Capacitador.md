@@ -2,18 +2,18 @@
 
 **ID:** CU-MU-005
 
-**Actor(es):** Administrativo, Capacitador (Este actor podría modificar sus propios datos básicos)
+**Actor(es):** Coordinadora de EC, Capacitador (Este actor podría modificar sus propios datos básicos)
 
-**Descripción:** Un administrativo o el propio capacitador actualiza la información personal o profesional de un capacitador en el sistema. Esto incluye datos de contacto, especialidad, CV. **No incluye la validación de documentos para pago/facturación.**
+**Descripción:** Una coordinadora de EC o el propio capacitador actualiza la información personal o profesional de un capacitador en el sistema. Esto incluye datos de contacto, especialidad, CV. **No incluye la validación de documentos para pago/facturación.**
 
 **Precondiciones:**
 
-* El Actor (Administrativo o Capacitador) ha iniciado sesión en el sistema.
+* El Actor (Coordinadora de EC o Capacitador) ha iniciado sesión en el sistema.
 * El capacitador a modificar existe en el sistema.
 
 **Flujo Básico (Camino Feliz):**
 
-1. El Actor (Administrativo desde "Módulo de Usuarios" o Capacitador desde su "Perfil") selecciona la opción para editar la información de un capacitador.
+1. El Actor (Coordinadora de EC desde "Módulo de Usuarios" o Capacitador desde su "Perfil") selecciona la opción para editar la información de un capacitador.
 2. El sistema presenta un formulario pre-llenado con la información actual del capacitador.
 3. El Actor realiza los cambios necesarios en los campos (ej. datos básicos, información profesional, CV).
 4. El Actor guarda los cambios.

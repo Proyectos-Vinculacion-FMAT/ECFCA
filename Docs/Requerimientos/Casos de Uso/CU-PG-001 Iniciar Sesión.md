@@ -1,7 +1,7 @@
 ## CU-PG-001 Iniciar Sesión
 
 **ID:** CU-PG-001  
-**Actor(es):** Público General, Capacitador  
+**Actor(es):** Usuario  
 
 ### Descripción
 El usuario se autentica en el sistema utilizando su correo electrónico para recibir un código temporal que le permite ingresar, sin necesidad de una contraseña estática.
