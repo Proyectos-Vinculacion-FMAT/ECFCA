@@ -2,7 +2,7 @@
 
 > Este proyecto se encuentra actualmente en la fase de requerimientos, cualquier información presentada está sujeta a cambios en el futuro.
 
-| <image src="assets/image.png"  height="100"/> | <image height="100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuDMIMdlxdcdxQFfb0kD1qVYzOJ3GvoIMVgg&s"/> |
+| <image src="assets/fca-ec_logo.png"  height="100"/> | <image height="100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuDMIMdlxdcdxQFfb0kD1qVYzOJ3GvoIMVgg&s"/> |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 
 Proyecto En colaboración entre los departamentos de **Vinculación** de la **Facultad de Matemáticas** y de **Contaduría y Administración**.
@@ -166,3 +166,9 @@ Los casos de uso son una forma de representar los requisitos funcionales del sis
 - **CU-PG-007**: Consultar Estado de mis Solicitudes-Inscripciones
 - **CU-PG-008**: Volver a Enviar Solicitud
 - **CU-PG-009**: Consultar Mis Eventos
+
+
+
+## Estimación de Requerimientos
+
+Disponible en [Estimación](Docs/Requerimientos/Estimación.md)
