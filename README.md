@@ -171,4 +171,6 @@ Los casos de uso son una forma de representar los requisitos funcionales del sis
 
 ## Estimación de Requerimientos
 
+El método de estimación utilizado en este proyecto es un sistema de clasificación cualitativa personalizado que evalúa la complejidad de los casos de uso mediante tres dimensiones técnicas clave: interacciones backend/frontend (1-2 para sencillo, 3-5 para mediano, 6+ para complicado), operaciones CRUD (1-2 operaciones simples vs. lógica avanzada), e interfaces requeridas (1-2 interfaces básicas vs. múltiples estados complejos). Este enfoque específico para desarrollo web permite clasificar cada funcionalidad en tres categorías (Sencillo, Mediano, Complicado) con justificaciones detalladas, considerando tanto la arquitectura del sistema como la experiencia de usuario. El análisis resultante de 42 casos de uso mostró una distribución de 59.5% sencillos, 35.7% medianos y 4.8% complicados, identificando como más complejas las funcionalidades que involucran integraciones externas (pagos y APIs de terceros), lo que proporciona al equipo una base sólida para la planificación y asignación de recursos del proyecto.
+
 Disponible en [Estimación](Docs/Requerimientos/Estimación.md)
