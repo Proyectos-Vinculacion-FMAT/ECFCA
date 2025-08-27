@@ -118,7 +118,7 @@ Los casos de uso son una forma de representar los requisitos funcionales del sis
 
 ### Gestión de leads
 
-![alt](Docs/Requerimientos/Diagramas/img/Gestión%20de%20leads.png)
+![alt](Docs/Requerimientos/Diagramas/img/Gestión%20de%20Leads.png)
 
 **Casos de uso relacionados:**
 - **CU-VE-001**: Recuperar leads de fuentes externas
@@ -129,7 +129,7 @@ Los casos de uso son una forma de representar los requisitos funcionales del sis
 
 ### Gestión de oportunidades
 
-![alt](Docs/Requerimientos/Diagramas/img/Gestión%20de%20oportunidades.png)
+![alt](Docs/Requerimientos/Diagramas/img/Gestión%20de%20Oportunidades.png)
 
 **Casos de uso relacionados:**
 - **CU-VE-006**: Registrar Interacción con Oportunidad
