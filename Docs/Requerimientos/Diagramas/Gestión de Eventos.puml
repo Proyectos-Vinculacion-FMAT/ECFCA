@@ -4,6 +4,7 @@
 
 package "Gestión de Eventos" {
 
+    ' CRUD de eventos
     usecase CU_GE_001 as "
     CU_GE_001
     ---
@@ -24,16 +25,8 @@ package "Gestión de Eventos" {
     ---
     Eliminar Evento
     "
-    usecase CU_GE_005 as "
-    CU_GE_005
-    ---
-    Generar Constancias
-    "
-    usecase CU_GE_006 as "
-    CU_GE_006
-    ---
-    Generar Reportes de Eventos
-    "
+    
+    ' Gestión de inscripciones y pagos
     usecase CU_GE_007 as "
     CU_GE_007
     ---
@@ -44,39 +37,37 @@ package "Gestión de Eventos" {
     ---
     Validar Pagos Manuales
     "
-    usecase CU_GE_009 as "
-    CU_GE_009
+    
+    ' Generación de documentos
+    usecase CU_GE_005 as "
+    CU_GE_005
     ---
-    Crear Categoría de Evento-Capacitación
+    Generar Constancias
     "
-    usecase CU_GE_010 as "
-    CU_GE_010
+    usecase CU_GE_006 as "
+    CU_GE_006
     ---
-    Consultar Categorías de Evento-Capacitación
-    "
-    usecase CU_GE_011 as "
-    CU_GE_011
-    ---
-    Modificar Categoría de Evento-Capacitación
-    "
-    usecase CU_GE_012 as "
-    CU_GE_012
-    ---
-    Eliminar Categoría de Evento-Capacitación
+    Generar Reportes de Eventos
     "
 }
 
+' CRUD de eventos
 coordinadora_ec --> CU_GE_001
 Coordinacion --> CU_GE_002
 coordinadora_ec --> CU_GE_003
 coordinadora_ec --> CU_GE_004
-coordinadora_ec --> CU_GE_005
-Coordinacion --> CU_GE_006
+
+' Gestión operativa
 Coordinacion --> CU_GE_007
 Coordinacion --> CU_GE_008
-coordinadora_ec --> CU_GE_009
-Coordinacion --> CU_GE_010
-coordinadora_ec --> CU_GE_011
-coordinadora_ec --> CU_GE_012
+
+' Documentación
+coordinadora_ec --> CU_GE_005
+Coordinacion --> CU_GE_006
+
+' Flujo lógico
+CU_GE_001 ..> CU_GE_002 : alimenta
+CU_GE_007 ..> CU_GE_008 : precede
+CU_GE_008 ..> CU_GE_005 : habilita
 
 @enduml

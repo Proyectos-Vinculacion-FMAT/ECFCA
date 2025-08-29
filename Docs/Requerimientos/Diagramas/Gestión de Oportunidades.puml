@@ -3,14 +3,27 @@
 !include Actores.puml
 
 package "Gestión de Oportunidades" {
+    ' Interacción principal
     usecase CU_VE_006 as "
     CU_VE_006
     ---
     Registrar Interacción con Oportunidad"
+    
+    ' Seguimiento y tareas
     usecase CU_VE_007 as "
     CU_VE_007
     ---
     Agendar Tarea de Seguimiento"
+    usecase CU_VE_009 as "
+    CU_VE_009
+    ---
+    Consultar recordatorios"
+    usecase CU_VE_010 as "
+    CU_VE_010
+    ---
+    Gestionar Notificación de Recordatorio"
+    
+    ' Cierre y gestión documental
     usecase CU_VE_008 as "
     CU_VE_008
     ---
@@ -23,31 +36,25 @@ package "Gestión de Oportunidades" {
     CU_VE_012
     ---
     Consultar estado del pago"
-
-    usecase CU_VE_009 as "
-    CU_VE_009
-    ---
-    Consultar recordatorios"
-    usecase CU_VE_010 as "
-    CU_VE_010
-    ---
-    Gestionar Notificación de Recordatorio"
 }
 
-
-
+' Interacciones principales
 promotor_ventas --> CU_VE_006
-
-
 promotor_ventas --> CU_VE_011
 promotor_ventas --> CU_VE_012
-Coordinacion --> CU_VE_012
 promotor_ventas --> CU_VE_009
-CU_VE_010 <-- "Gestión de Oportunidades" 
 promotor_ventas --> CU_VE_010
 
+' Consultas de coordinación
+Coordinacion --> CU_VE_012
+
+' Notificaciones del sistema
+CU_VE_010 <-- "Gestión de Oportunidades" 
+
+' Relaciones de extensión y dependencia
 CU_VE_007 .> CU_VE_006 : extiende
 CU_VE_008 .> CU_VE_006 : extiende
-
+CU_VE_007 ..> CU_VE_009 : genera
+CU_VE_009 ..> CU_VE_010 : activa
 
 @enduml

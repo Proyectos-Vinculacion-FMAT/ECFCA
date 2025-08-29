@@ -1,0 +1,21 @@
+@startuml Administración de Usuarios
+
+!include Actores.puml
+
+package "Administración de Usuarios" {
+    usecase CU_MU_001 as "
+    CU_MU_001
+    ---
+    Consultar Usuarios
+    "
+    usecase CU_MU_002 as "
+    CU_MU_002
+    ---
+    Validar documentación
+    "
+}
+
+Coordinacion --> CU_MU_001
+Coordinacion --> CU_MU_002
+
+@enduml

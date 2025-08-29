@@ -3,6 +3,7 @@
 !include Actores.puml
 
 package "Gestión de leads" as gestion_leads {
+    ' Captura de leads
     usecase CU_VE_001 as "
     CU_VE_001
     ---
@@ -11,6 +12,8 @@ package "Gestión de leads" as gestion_leads {
     CU_VE_002
     ---
     Agregar lead manualmente"
+    
+    ' Gestión de leads
     usecase CU_VE_003 as "
     CU_VE_003
     ---
@@ -19,17 +22,30 @@ package "Gestión de leads" as gestion_leads {
     CU_VE_004
     ---
     Asignar leads"
+    
+    ' Conversión
     usecase CU_VE_005 as "
     CU_VE_005
     ---
     Convertir lead en oportunidad"
 }
 
+' Captura automática
 gestion_leads --> CU_VE_001
 CU_VE_001  <--  MetaAds
-Staff --> CU_VE_003
+
+' Gestión manual
 equipo_ventas --> CU_VE_002
-equipo_ventas --> CU_VE_005
+Staff --> CU_VE_003
 responsable_ventas --> CU_VE_004
+
+' Conversión
+equipo_ventas --> CU_VE_005
+
+' Flujo lógico
+CU_VE_001 ..> CU_VE_003 : alimenta
+CU_VE_002 ..> CU_VE_003 : alimenta
+CU_VE_003 ..> CU_VE_004 : precede
+CU_VE_004 ..> CU_VE_005 : precede
 
 @enduml

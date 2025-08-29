@@ -3,15 +3,11 @@
 !include Actores.puml
 
 package "Público General" {
+    ' Flujo principal de inscripción
     usecase CU_PG_004 as "
     CU_PG_004
     ---
     Solicitar Inscripción a Evento
-    "
-    usecase CU_PG_005 as "
-    CU_PG_005
-    ---
-    Realizar Pago de Solicitud Aprobada
     "
     usecase CU_PG_006 as "
     CU_PG_006
@@ -28,6 +24,13 @@ package "Público General" {
     ---
     Volver a Enviar Solicitud
     "
+    usecase CU_PG_005 as "
+    CU_PG_005
+    ---
+    Realizar Pago de Solicitud Aprobada
+    "
+    
+    ' Gestión post-inscripción
     usecase CU_PG_009 as "
     CU_PG_009
     ---
@@ -35,11 +38,19 @@ package "Público General" {
     "
 }
 
-Participante --> CU_PG_009
+' Flujo de inscripción
 Interesado --> CU_PG_004
-Interesado --> CU_PG_005
 Interesado --> CU_PG_006
 Interesado --> CU_PG_007
 Interesado --> CU_PG_008
+Interesado --> CU_PG_005
+
+' Post-inscripción
+Participante --> CU_PG_009
+
+' Relaciones de flujo
+CU_PG_004 ..> CU_PG_006 : incluye
+CU_PG_007 ..> CU_PG_008 : extiende
+CU_PG_004 ..> CU_PG_005 : precede
 
 @enduml
