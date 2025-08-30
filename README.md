@@ -123,17 +123,15 @@ Los casos de uso son una forma de representar los requisitos funcionales del sis
 - **[CU-GE-007](Docs/Requerimientos/Casos%20de%20Uso/CU-GE-007%20Aprobar-Gestionar%20Solicitudes%20de%20Inscripción.md)**: Aprobar-Gestionar Solicitudes de Inscripción
 - **[CU-GE-008](Docs/Requerimientos/Casos%20de%20Uso/CU-GE-008%20Validar%20Pagos%20Manuales.md)**: Validar Pagos Manuales
 
-**Gestión de Categorías:**
-- **[CU-GE-009](Docs/Requerimientos/Casos%20de%20Uso/CU-GE-009%20Crear%20Categoría%20de%20Evento-Capacitación.md)**: Crear Categoría de Evento-Capacitación
-- **[CU-GE-010](Docs/Requerimientos/Casos%20de%20Uso/CU-GE-010%20Consultar%20Categorías%20de%20Evento-Capacitación.md)**: Consultar Categorías de Evento-Capacitación
-- **[CU-GE-011](Docs/Requerimientos/Casos%20de%20Uso/CU-GE-011%20Modificar%20Categoría%20de%20Evento-Capacitación.md)**: Modificar Categoría de Evento-Capacitación
-- **[CU-GE-012](Docs/Requerimientos/Casos%20de%20Uso/CU-GE-012%20Eliminar%20Categoría%20de%20Evento-Capacitación.md)**: Eliminar Categoría de Evento-Capacitación
-
 ### Gestión de Categorías
 
 ![alt](Docs/Requerimientos/Diagramas/img/Gestión%20de%20Categorías.png)
 
-*Diagrama específico para la gestión de categorías de eventos y capacitaciones, mostrando las operaciones CRUD básicas para la administración de categorías.*
+**Casos de uso relacionados:**
+- **[CU-GE-009](Docs/Requerimientos/Casos%20de%20Uso/CU-GE-009%20Crear%20Categoría%20de%20Evento-Capacitación.md)**: Crear Categoría de Evento-Capacitación
+- **[CU-GE-010](Docs/Requerimientos/Casos%20de%20Uso/CU-GE-010%20Consultar%20Categorías%20de%20Evento-Capacitación.md)**: Consultar Categorías de Evento-Capacitación
+- **[CU-GE-011](Docs/Requerimientos/Casos%20de%20Uso/CU-GE-011%20Modificar%20Categoría%20de%20Evento-Capacitación.md)**: Modificar Categoría de Evento-Capacitación
+- **[CU-GE-012](Docs/Requerimientos/Casos%20de%20Uso/CU-GE-012%20Eliminar%20Categoría%20de%20Evento-Capacitación.md)**: Eliminar Categoría de Evento-Capacitación
 
 ---
 
@@ -179,7 +177,11 @@ Los casos de uso son una forma de representar los requisitos funcionales del sis
 - **[CU-MU-001](Docs/Requerimientos/Casos%20de%20Uso/CU-MU-001%20Consultar%20Usuarios.md)**: Consultar Usuarios
 - **[CU-MU-002](Docs/Requerimientos/Casos%20de%20Uso/CU-MU-002%20Validar%20documentación.md)**: Validar documentación
 
-**Gestión de Capacitadores:**
+### Gestión de Capacitadores
+
+![alt](Docs/Requerimientos/Diagramas/img/Gestión%20de%20Capacitadores.png)
+
+**Casos de uso relacionados:**
 - **[CU-MU-003](Docs/Requerimientos/Casos%20de%20Uso/CU-MU-003%20Registrar%20Capacitador.md)**: Registrar Capacitador
 - **[CU-MU-004](Docs/Requerimientos/Casos%20de%20Uso/CU-MU-004%20Consultar%20Capacitadores.md)**: Consultar Capacitadores
 - **[CU-MU-005](Docs/Requerimientos/Casos%20de%20Uso/CU-MU-005%20Modificar%20Información%20de%20Capacitador.md)**: Modificar Información de Capacitador
@@ -188,17 +190,13 @@ Los casos de uso son una forma de representar los requisitos funcionales del sis
 - **[CU-MU-008](Docs/Requerimientos/Casos%20de%20Uso/CU-MU-008%20Validar%20Información%20de%20Pago-Facturación%20Propia.md)**: Validar Información de Pago-Facturación Propia
 - **[CU-MU-009](Docs/Requerimientos/Casos%20de%20Uso/CU-MU-009%20Consultar%20Capacitaciones%20Asignadas.md)**: Consultar Capacitaciones Asignadas
 
-### Gestión de Capacitadores
-
-![alt](Docs/Requerimientos/Diagramas/img/Gestión%20de%20Capacitadores.png)
-
-*Diagrama específico que detalla las funcionalidades de administración de capacitadores, incluyendo su registro, gestión de información personal y de facturación.*
-
 ### Administración de Usuarios
 
 ![alt](Docs/Requerimientos/Diagramas/img/Administración%20de%20Usuarios.png)
 
-*Vista administrativa general para la gestión de usuarios del sistema, incluyendo validación de documentación y consultas generales.*
+**Casos de uso relacionados:**
+- **[CU-MU-001](Docs/Requerimientos/Casos%20de%20Uso/CU-MU-001%20Consultar%20Usuarios.md)**: Consultar Usuarios
+- **[CU-MU-002](Docs/Requerimientos/Casos%20de%20Uso/CU-MU-002%20Validar%20documentación.md)**: Validar documentación
 
 ---
 
