@@ -4,38 +4,14 @@
 
 package "Público General" {
     ' Flujo principal de inscripción
-    usecase CU_PG_004 as "
-    CU_PG_004
-    ---
-    Solicitar Inscripción a Evento
-    "
-    usecase CU_PG_006 as "
-    CU_PG_006
-    ---
-    Cargar Documentos (por el usuario)
-    "
-    usecase CU_PG_007 as "
-    CU_PG_007
-    ---
-    Consultar Estado de mis Solicitudes-Inscripciones
-    "
-    usecase CU_PG_008 as "
-    CU_PG_008
-    ---
-    Volver a Enviar Solicitud
-    "
-    usecase CU_PG_005 as "
-    CU_PG_005
-    ---
-    Realizar Pago de Solicitud Aprobada
-    "
+    usecase CU_PG_004 as "Solicitar Inscripción a Evento"
+    usecase CU_PG_006 as "Cargar Documentos (por el usuario)"
+    usecase CU_PG_007 as "Consultar Estado de mis Solicitudes-Inscripciones"
+    usecase CU_PG_008 as "Volver a Enviar Solicitud"
+    usecase CU_PG_005 as "Realizar Pago de Solicitud Aprobada"
     
     ' Gestión post-inscripción
-    usecase CU_PG_009 as "
-    CU_PG_009
-    ---
-    Consultar Mis Eventos
-    "
+    usecase CU_PG_009 as "Consultar Mis Eventos"
 }
 
 ' Flujo de inscripción

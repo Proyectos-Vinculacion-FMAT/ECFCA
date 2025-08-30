@@ -3,51 +3,15 @@
 !include Actores.puml
 
 package "Módulo de Usuarios" {
-    usecase CU_MU_001 as "
-    CU_MU_001
-    ---
-    Consultar Usuarios
-    "
-    usecase CU_MU_002 as "
-    CU_MU_002
-    ---
-    Validar documentación
-    "
-    usecase CU_MU_003 as "
-    CU_MU_003
-    ---
-    Registrar Capacitador
-    "
-    usecase CU_MU_004 as "
-    CU_MU_004
-    ---
-    Consultar Capacitadores
-    "
-    usecase CU_MU_005 as "
-    CU_MU_005
-    ---
-    Modificar Información de Capacitador
-    "
-    usecase CU_MU_006 as "
-    CU_MU_006
-    ---
-    Archivar-Eliminar Capacitador
-    "
-    usecase CU_MU_007 as "
-    CU_MU_007
-    ---
-    Registrar-Actualizar Información de Pago-Facturación de Capacitador
-    "
-    usecase CU_MU_008 as "
-    CU_MU_008
-    ---
-    Validar Información de Pago-Facturación Propia
-    "
-    usecase CU_MU_009 as "
-    CU_MU_009
-    ---
-    Consultar Capacitaciones Asignadas
-    "
+    usecase CU_MU_001 as "Consultar Usuarios"
+    usecase CU_MU_002 as "Validar documentación"
+    usecase CU_MU_003 as "Registrar Capacitador"
+    usecase CU_MU_004 as "Consultar Capacitadores"
+    usecase CU_MU_005 as "Modificar Información de Capacitador"
+    usecase CU_MU_006 as "Archivar-Eliminar Capacitador"
+    usecase CU_MU_007 as "Registrar-Actualizar Información de Pago-Facturación de Capacitador"
+    usecase CU_MU_008 as "Validar Información de Pago-Facturación Propia"
+    usecase CU_MU_009 as "Consultar Capacitaciones Asignadas"
 }
 
 Capacitador --> CU_MU_009

@@ -4,38 +4,17 @@
 
 package "Gestión de Oportunidades" {
     ' Interacción principal
-    usecase CU_VE_006 as "
-    CU_VE_006
-    ---
-    Registrar Interacción con Oportunidad"
+    usecase CU_VE_006 as "Registrar Interacción con Oportunidad"
     
     ' Seguimiento y tareas
-    usecase CU_VE_007 as "
-    CU_VE_007
-    ---
-    Agendar Tarea de Seguimiento"
-    usecase CU_VE_009 as "
-    CU_VE_009
-    ---
-    Consultar recordatorios"
-    usecase CU_VE_010 as "
-    CU_VE_010
-    ---
-    Gestionar Notificación de Recordatorio"
+    usecase CU_VE_007 as "Agendar Tarea de Seguimiento"
+    usecase CU_VE_009 as "Consultar recordatorios"
+    usecase CU_VE_010 as "Gestionar Notificación de Recordatorio"
     
     ' Cierre y gestión documental
-    usecase CU_VE_008 as "
-    CU_VE_008
-    ---
-    Cerrar Oportunidad Ganada-Perdida"
-    usecase CU_VE_011 as "
-    CU_VE_011
-    ---
-    Cargar Documentación en Nombre del Cliente"
-    usecase CU_VE_012 as "
-    CU_VE_012
-    ---
-    Consultar estado del pago"
+    usecase CU_VE_008 as "Cerrar Oportunidad Ganada-Perdida"
+    usecase CU_VE_011 as "Cargar Documentación en Nombre del Cliente"
+    usecase CU_VE_012 as "Consultar estado del pago"
 }
 
 ' Interacciones principales

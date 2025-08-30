@@ -3,26 +3,10 @@
 !include Actores.puml
 
 package "Gestión de Categorías" {
-    usecase CU_GE_009 as "
-    CU_GE_009
-    ---
-    Crear Categoría de Evento-Capacitación
-    "
-    usecase CU_GE_010 as "
-    CU_GE_010
-    ---
-    Consultar Categorías de Evento-Capacitación
-    "
-    usecase CU_GE_011 as "
-    CU_GE_011
-    ---
-    Modificar Categoría de Evento-Capacitación
-    "
-    usecase CU_GE_012 as "
-    CU_GE_012
-    ---
-    Eliminar Categoría de Evento-Capacitación
-    "
+    usecase CU_GE_009 as "Crear Categoría de Evento-Capacitación"
+    usecase CU_GE_010 as "Consultar Categorías de Evento-Capacitación"
+    usecase CU_GE_011 as "Modificar Categoría de Evento-Capacitación"
+    usecase CU_GE_012 as "Eliminar Categoría de Evento-Capacitación"
 }
 
 coordinadora_ec --> CU_GE_009

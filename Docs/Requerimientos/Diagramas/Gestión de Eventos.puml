@@ -5,50 +5,18 @@
 package "Gestión de Eventos" {
 
     ' CRUD de eventos
-    usecase CU_GE_001 as "
-    CU_GE_001
-    ---
-    Crear Evento
-    "
-    usecase CU_GE_002 as "
-    CU_GE_002
-    ---
-    Consultar Eventos
-    "
-    usecase CU_GE_003 as "
-    CU_GE_003
-    ---
-    Modificar Evento
-    "
-    usecase CU_GE_004 as "
-    CU_GE_004
-    ---
-    Eliminar Evento
-    "
+    usecase CU_GE_001 as "Crear Evento"
+    usecase CU_GE_002 as "Consultar Eventos"
+    usecase CU_GE_003 as "Modificar Evento"
+    usecase CU_GE_004 as "Eliminar Evento"
     
     ' Gestión de inscripciones y pagos
-    usecase CU_GE_007 as "
-    CU_GE_007
-    ---
-    Aprobar-Gestionar Solicitudes de Inscripción
-    "
-    usecase CU_GE_008 as "
-    CU_GE_008
-    ---
-    Validar Pagos Manuales
-    "
+    usecase CU_GE_007 as "Aprobar-Gestionar Solicitudes de Inscripción"
+    usecase CU_GE_008 as "Validar Pagos Manuales"
     
     ' Generación de documentos
-    usecase CU_GE_005 as "
-    CU_GE_005
-    ---
-    Generar Constancias
-    "
-    usecase CU_GE_006 as "
-    CU_GE_006
-    ---
-    Generar Reportes de Eventos
-    "
+    usecase CU_GE_005 as "Generar Constancias"
+    usecase CU_GE_006 as "Generar Reportes de Eventos"
 }
 
 ' CRUD de eventos

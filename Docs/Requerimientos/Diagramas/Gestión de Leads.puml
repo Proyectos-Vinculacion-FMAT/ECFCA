@@ -4,30 +4,15 @@
 
 package "Gestión de leads" as gestion_leads {
     ' Captura de leads
-    usecase CU_VE_001 as "
-    CU_VE_001
-    ---
-    Recuperar leads de fuentes externas"
-    usecase CU_VE_002 as "
-    CU_VE_002
-    ---
-    Agregar lead manualmente"
+    usecase CU_VE_001 as "Recuperar leads de fuentes externas"
+    usecase CU_VE_002 as "Agregar lead manualmente"
     
     ' Gestión de leads
-    usecase CU_VE_003 as "
-    CU_VE_003
-    ---
-    Visualizar leads"
-    usecase CU_VE_004 as "
-    CU_VE_004
-    ---
-    Asignar leads"
+    usecase CU_VE_003 as "Visualizar leads"
+    usecase CU_VE_004 as "Asignar leads"
     
     ' Conversión
-    usecase CU_VE_005 as "
-    CU_VE_005
-    ---
-    Convertir lead en oportunidad"
+    usecase CU_VE_005 as "Convertir lead en oportunidad"
 }
 
 ' Captura automática
